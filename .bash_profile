@@ -1,0 +1,23 @@
+alias ls="ls -G -l"
+
+alias b="bundle"
+alias bx="bundle exec"
+
+alias gst="git status"
+alias gco="git checkout"
+alias gpl="git pull"
+alias gps="git push"
+alias gcm="git commit"
+alias glg="git log --graph"
+alias gdf="git diff"
+alias gbr="git branch"
+alias gmg="git merge"
+alias grb="git rebase"
+alias gad="git add"
+alias gcp="git cherry-pick"
+alias gbrl="git for-each-ref --sort='authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads"
+
+alias r="ruby -rubygems"
+alias rt="ruby -Itest -rubygems"
+alias rl="ruby -Ilib -rubygems"
+alias rspec="rspec -c"
